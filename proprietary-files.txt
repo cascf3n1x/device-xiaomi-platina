@@ -1907,5 +1907,14 @@ vendor/bin/thermal-engine
 vendor/lib64/libthermalfeature.so
 vendor/lib64/libthermalioctl.so
 
+# Thermal configs
+vendor/etc/thermal-engine-sdm660-camera.conf
+vendor/etc/thermal-engine-sdm660-high.conf
+vendor/etc/thermal-engine-sdm660-map.conf
+vendor/etc/thermal-engine-sdm660-nolimits.conf
+vendor/etc/thermal-engine-sdm660-pubgmhd.conf
+vendor/etc/thermal-engine-sdm660-sgame.conf
+vendor/etc/thermal-engine-sdm660.conf
+
 # Wifi - from jasmine
 vendor/bin/cnss-daemon
