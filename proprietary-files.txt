@@ -1900,11 +1900,10 @@ vendor/lib64/libsensor_reg.so|be00c924983a2a279f799332cf2b262da9af78d1
 vendor/lib64/sensor_calibrate.so|dacb7a77e1713a756a43c082329e9f42e2c0d40e
 vendor/lib64/sensors.ssc.so|b53f9d8a5580feb9ca8f9e4efd080f76dc1d1588
 
-# Thermal - from jasmine
+# Thermal - from platina
 vendor/bin/thermal-engine
 -vendor/lib/libthermalclient.so
 -vendor/lib64/libthermalclient.so
-vendor/lib64/libthermalfeature.so
 vendor/lib64/libthermalioctl.so
 
 # Thermal configs
