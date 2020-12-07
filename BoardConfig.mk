@@ -37,7 +37,7 @@ DEVICE_MANIFEST_FILE += $(PLATINA_PATH)/manifest.xml
 TARGET_KERNEL_SOURCE := kernel/xiaomi/platina
 TARGET_KERNEL_CONFIG := platina_defconfig
 TARGET_KERNEL_CROSS_COMPILE_PREFIX := aarch64-elf-
-KERNEL_TOOLCHAIN := $(PWD)/compiler/bin/
+KERNEL_TOOLCHAIN := $(PWD)/prebuilts/gcc/linux-x86/aarch64/aarch64-elf/bin/
 
 # Partitions
 BOARD_SYSTEMIMAGE_PARTITION_SIZE := 3221225472
@@ -45,6 +45,10 @@ BOARD_VENDORIMAGE_PARTITION_SIZE := 2147483648
 
 # Recovery
 TARGET_RECOVERY_FSTAB := $(PLATINA_PATH)/rootdir/etc/fstab.qcom
+
+BOARD_ROOT_EXTRA_SYMLINKS := \sepolicy
+   
+
 
 # Inherit the proprietary files
 include vendor/xiaomi/platina/BoardConfigVendor.mk
